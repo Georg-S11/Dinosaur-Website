@@ -1,0 +1,65 @@
+body {
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed; /* Fixes the "double bg img shit" */
+}
+
+nav {
+    background: linear-gradient(black, brown);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px black;
+}
+
+#main-text {
+    text-align: center;
+    display: block;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: auto 300px;
+    background: linear-gradient(rgb(184, 182, 179), white);
+    color: #1a1414;
+    margin-top: 10px;
+    padding: 10px 20px;
+    word-wrap: break-word; /* Allows words to break and wrap to next line */
+}
+
+.dino-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#t-rex {
+    margin: 10px 0;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#velociraptor {
+    margin: 10px 0;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(brown, black);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    border: 5px solid black;
+}
