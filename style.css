@@ -1,7 +1,7 @@
 body {
     background-image: url("Images/background.jpg");
     background-size: cover;
-    background-attachment: fixed; /* Fixes the "double bg img shit" */
+    background-attachment: fixed; /* Fixes the "double bg" img shit */
 }
 
 nav {
@@ -42,24 +42,40 @@ nav {
 }
 
 #t-rex {
-    margin: 10px 0;
+    margin: 100px 0;
     border: 5px solid black;
     border-radius: 10px;
 }
 
 #velociraptor {
-    margin: 10px 0;
+    margin: 100px 0;
     border: 5px solid black;
     border-radius: 10px;
 }
 
+aside {
+    display:flex;
+    flex-flow: column wrap;
+    background: linear-gradient(rgb(184, 182, 179), white);
+    border: 5px solid black;
+    border-radius: 10px;
+    justify-content: start;
+    width: 200px;
+    height: 500px;
+    position: fixed;
+    top: 150px;
+    text-align: center;
+}
+
+
+
 footer {
     background: linear-gradient(brown, black);
-    position: fixed;
     width: 100%;
+    position: fixed;
     bottom: 0;
     left: 0;
     text-align: center;
     color: white;
-    border: 5px solid black;
+    border-top: 5px solid black;
 }
